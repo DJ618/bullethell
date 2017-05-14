@@ -1,0 +1,72 @@
+Team:      WeNeedNorton
+Document:  Video Analyzing Document
+
+
+Enemy Analysis:
+
+  Formations:
+    All enemies have been observed taking several formations. We have seen a single horizontal wave, a double horizontal wave, single file taxi-line, and a randomly-scattered wave that will move from top to bottom of the screen, primarily found during boss or elite enemy encounters.
+
+    The horizontal wave-line may have a slight curve or bow to the overall structure of the line, however this varies from wave to wave. Periodically, there will be a perfectly straight horizontal line that spans the entire game screen. Note that there appears to be actually two full lines of enemies, that will stack visually, and producing double the amount of projectiles. Please refer to horizontal line fire under projectile analysis.
+
+  Movement:
+    Major movement patterns that have been observed are as follows:
+      -Swoop down, and to the left
+      -Swoop down, and to the right
+      -A staggered, straight line
+      -Random periodic entrance and exit
+    These movement patterns appear to be in correlation with which enemy type
+    is currently on the screen. Bosses however, are on a random movement scheme,
+    and will periodically move off screen when not engaged in combat, and return with a finite time frame. Likewise, non-boss enemies if not engaged in combat, will also exit off the screen upon completing their respective movement pattern.
+
+    Boss/Elite enemy movement:
+      Take note that these enemies will fire a wave or projectiles, move, and then fire again. However, upon emitting the 360 wave blast, the enemy demonstrates a fire-while-moving behavior between the second and third succession of wave blasts.
+
+      During the triangle blast, elite enemies are able to strafe and fire at a lesser speed than their typical movement speed.
+
+Projectile Analysis:
+  Major projectile patterns observed are as follows:
+
+    -Arch wave
+      This is observed from the boss and elite enemies. The enemy will expel 2 waves of white colored round projectiles in an arch shape, bowing toward the player's character model, followed by a final wave of red round projectiles.
+
+    -Triangle directional blast
+      This is an attack from the boss and elite enemies. The projectiles themselves are of an arrow shape individually, and form a 3-2-1 bowling pin-like arrangement. The triangle of projectiles will emit from the enemy's location, and aim directly toward the player's character's position at the time of projection. The single shot is the initial projectile, followed by the double and triple in rapid rhythmic succession.
+
+    -360 wave blast
+      This is also an advanced enemy attack. It consists of round white or red projectile objects, emitting 360 degrees from the enemy's position at time of projection.
+
+        Advanced 360 wave blast 1:
+          During boss fights, the boss will not only emit the 360 degree wave blast, but will also add a rotation to the circular wave while the projectiles radiate outward.
+
+        Advanced 360 wave blast 2:
+          The boss will also perform what appears to be a skewed sinusoidal wave of projectiles. It appears to be a pseudo circular wave, however it is not a perfect circular, and appears it may be created with some kind of trigonometric function. Also, rather than emitting out at 360 degrees all at once, it will project out in a sequence around the enemy character at a fast rate.
+
+          This pattern may also be a sequential emittance with a double rate of fire and 'spin' factor with three separate emitters radiating from the boss's location. This may be observed during the first boss battle.
+
+    -horizontal line fire
+      This type of projectile pattern is observed when a perfectly straight horizontal line of enemies takes formation on the screen. When these enemies fire, it is a single round white projectile aimed directly at the player's location at the time of emittance. Note that there are 2 rows of stack enemies during this formation, and thus produce a V-shaped, double rowed wave of projectiles toward the player.
+
+    -Spiral boss blast
+      Similar to the 360 wave blast, the boss contains a directional spiral 360 blast. The projectiles during this attack are slanted and aimed toward the direction of spiral movement. These projectiles also vary in speed, and are typically slower than the standard boss projectiles, however they are stacked in dense waves of circling patterns. These blasts also come in a pulsating behavior. The first pulses cause the projectiles to temporarily stop at their current radial distance, and then continue their path upon the next pulse; when the next wave is emitted from the boss's location. Upon demonstrating a halting pattern for one or two pulses, the projectile wave will then continue to move across the screen without further halting patterns as it emits further away from the boss. Note that these halting projectiles may appear to change direction upon the halting frame, however unable to verify for their are two waves that overlap during this halting time.
+
+    -Breathing blast wave
+      Very similar to the 360 blast wave. During its travel however, the radius of the circle will smoothly decrease and increase by a small factor, then grow back past the previous pulses size. This growing/shrinking pattern will continue for the life of the projectile on the screen. The projectiles also demonstrate a directional spin.
+
+Player Analysis:
+
+  Movement:
+    Player movement is free to roam the entire game board/screen using directional keys. There appears to be no acceleration factor, and demonstrates a quick linear response to movement. When the slow movement key is pressed and held, a white dot will appear at the center of the player's location on the screen, and will decrease the rate of movement. The factor of decrease is unknown but may be adjusted during development.
+
+  Projectiles:
+    Player projectiles are more of a stream control, rather than an individual projectile. While holding down the fire key, a nearly solid stream of projectiles emit directly ahead of the player's location. Then, upon a click of the fire key, a small stream of about 20 projectiles will project forward.
+
+Misc observations:
+
+  Tokens:
+    Upon elimination of an enemy, square shaped tokens to be collected are emitted downward in a straight line.
+
+    However, upon death of the player, these collected tokens will be shot out in an upward arch pattern from the player's death location, which are able to be re-collected for a short period of time.
+
+  Graphics:
+    Also upon elimination of an enemy, a flattened spiral of varying colors will flash on the screen at the former enemy's location.

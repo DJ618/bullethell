@@ -1,0 +1,2 @@
+1. Simply add a name that can be used to define it to the ConstructFirePattern() func in the EnemyBuilder class.  Should be obvious when you look
+	at the function.

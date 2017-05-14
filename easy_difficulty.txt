@@ -1,0 +1,45 @@
+*Subtract 0:06 from all times
+
+0:08 Staggared - 11 enemies
+
+0:16 dtr fire none - 4 enemies
+
+0:19 dtl fire none- 5 enemies
+
+0:19 boss triangle fire- health: 50
+
+0:22 dtl fire none - 5 enemies
+
+0:25 dtr fire none - 5 enemies
+
+0:27 boss triangle fire - health: 50
+
+0:28 staggared fire none - 10 enemies
+
+0:31 dtl fire none - 5 spaced enemies
+
+0:34 dtr and dtl fire none - 8 dtr 12 dtl start middle of screen
+
+0:41 boss triangle fire - health: 50
+
+0:42 dtr close 5 fire none
+
+0:43 dtr start right edge fire none 5 enemies
+
+0:45 5 staggared waves some have normal fire - spread out more as you go
+
+0:49 boss fire 666 fire circle - health: 500
+
+1:09 2 random triangle fire - health: 50
+
+1:12 bunch of scattered enemies move straight down and don't fire
+
+1:16 dtl no fire - 5 enemies a little more towards the middle than normal
+
+1:18 6 spread out staggared waves...2 enemies do normal fire
+
+1:25 big boss health: 10000 single rope pulsating blast double rope at 2:20 we got the double circle switch direction thing
+	at 3:08 goes back to original fire rotation except rope is now triple
+	at 3:55 switches to lasers and mcflurry
+	game ends at 4:40
+

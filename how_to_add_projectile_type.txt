@@ -1,0 +1,6 @@
+1. Create class that inherits from Projectile.
+	- override its move function to change how it moves after being fired.  (Timers may be useful to help it do stuff, or use an int to delay it
+	  if necessary)
+2. In Projectile.cs, add an id in the ProjectileType enum that can be used to identify the new projectile you created.
+3. In the EnemyBuilder class, add a string that can be used to identify the projectile type in the config file to the GetProjectileType() func.
+4. In the Enemy class, add a case for the projectileType in the SetProjectileTexture() function
