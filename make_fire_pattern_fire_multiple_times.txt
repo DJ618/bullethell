@@ -1,1 +1,0 @@
-Look at how a delayTimer is used in Fire666 as an example.
