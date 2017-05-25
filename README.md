@@ -9,3 +9,6 @@
   * Cohesion practices
 * Config file control
   * Able to reconfigure nearly everything in the game via a config file
+* Required setup:
+  * Monogame must be installed into your visual studio if you wish to view source.
+  * You may also need to copy over monogame's SDL2.dll over to the project debug folder.
